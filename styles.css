@@ -1,0 +1,81 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+header{
+    text-align: center;
+    background-color: blanchedalmond;
+    margin: 0;
+    height: 5em;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 20em; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: blanchedalmond;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    align-items: center;
+}
+
+.sidebar img{
+    width: 150px;
+    align-self: center;
+    padding: 50px;
+}
+
+#form{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+#form .input-block{
+    position: relative;
+}
+
+#form .input-block input{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    outline: none;
+    background: transparent;
+}
+
+#form .submit{
+    background-color: #4BB543;
+    color: white;
+    font-size: 16px;
+    margin-top: 5%;
+    padding: 5%;
+}
+
+#form .submit{
+    background-color: #4BB543;
+    color: white;
+    font-size: 16px;
+    margin-top: 5%;
+    padding: 5%;
+    box-shadow: 0 9px rgb(0, 0, 0, 0.3);
+}
+
+#form .submit:hover{
+    font-size: 20px;
+    box-shadow: 0 9px rgb(0, 0, 0, 0.3);
+}
+
+#form .submit:active{
+    font-size: 20px;
+    box-shadow: 0 9px rgb(0, 0, 0, 0.6);
+}
