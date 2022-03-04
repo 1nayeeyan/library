@@ -79,3 +79,9 @@ header{
     font-size: 20px;
     box-shadow: 0 9px rgb(0, 0, 0, 0.6);
 }
+
+.content{
+    width: 80%;
+    align-self: flex-end;
+    margin-right: 20px;
+}
